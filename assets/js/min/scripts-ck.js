@@ -1,0 +1,1 @@
+$(function(){$("#cards").mixItUp(),$(".write-gtng").click(function(){$(".greeting").fadeIn("slow"),$(".nogreeting, .write-gtng").fadeOut("slow"),$(".greeting-btn").delay(1e3).fadeIn("slow"),event.preventDefault()})});
